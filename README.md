@@ -7,10 +7,12 @@ In scientific paper summarization, there is a considerable amount of information
 How text summarization works
 In general there are two types of summarization, abstractive and extractive summarization.
 Abstractive Summarization:
+
 Abstractive methods select words based on semantic understanding, even those words did not appear in the source documents. It aims at producing important material in a new way. They interpret and examine the text using advanced natural language techniques in order to generate a new shorter text that conveys the most critical information from the original text.
 It can be correlated to the way human reads a text article or blog post and then summarizes in their own word.
 Input document → understand context → semantics → create own summary.
 2. Extractive Summarization: 
+
 Extractive methods attempt to summarize articles by selecting a subset of words that retain the most important points.
 This approach weights the important part of sentences and uses the same to form the summary. Different algorithm and techniques are used to define weights for the sentences and further rank them based on importance and similarity among each other.
 Input document → sentences similarity → weight sentences → select sentences with higher rank.
